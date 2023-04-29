@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This module implement a rule that return a view"""
+"""a new view for City objects that handles all default RESTFul API actions"""
 from flask import jsonify, abort, request
 from models import storage
 from api.v1.views import app_views
